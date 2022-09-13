@@ -1,94 +1,93 @@
-.header{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
-.header::after{
-    content: '';
-    display: inline-block;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    width: 1.5rem;
-    height: 1.5rem;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(/assets/img/icons/header.svg);
+.header::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(assets/img/icons/header.svg);
 }
 
-.header .photo{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
+.header .photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.header .title{
-    text-align: center;
-    font-family: 'Naue Machina';
+.header .title {
+  text-align: center;
+  font-family: "Naue Machina";
 }
 
-.information{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
 }
 
-.information p{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: .5rem;
-    font-size: 1.125rem;
+.information p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5rem;
+  font-size: 1.125rem;
 }
 
-.information p::before{
-    content: '';
-    display: inline-block;
-    width: 1rem;
-    height: 1rem;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-right: .5rem;
+.information p::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 0.5rem;
 }
 
 .information .job::before {
-    background-image: url(/assets/img/icons/user.svg);
+  background-image: url(assets/img/icons/user.svg);
 }
 
-.information .location::before{
-    background-image: url(/assets/img/icons/location.svg);
+.information .location::before {
+  background-image: url(assets/img/icons/location.svg);
 }
 
-.information .email::before{
-    background-image: url(/assets/img/icons/email.svg);
+.information .email::before {
+  background-image: url(assets/img/icons/email.svg);
 }
 
-.information .phone::before{
-    background-image: url(/assets/img/icons/whasapp.svg );
+.information .phone::before {
+  background-image: url(assets/img/icons/whasapp.svg);
 }
 
-@media only screen and (min-width : 768px) {
-    .header{
-        display: grid;
-        grid-template-areas: 
-        "photo title"
-        "photo information"
-        ;
-    }
-    .header .photo{
-        grid-area: photo;
-        margin: 0 auto;
-    }
-    .header .title{
-        grid-area: title;
-        text-align: start;
-        max-width: 210px;
-    }
-    .header .information{
-        grid-area: information;
-    }
+@media only screen and (min-width: 768px) {
+  .header {
+    display: grid;
+    grid-template-areas:
+      "photo title"
+      "photo information";
+  }
+  .header .photo {
+    grid-area: photo;
+    margin: 0 auto;
+  }
+  .header .title {
+    grid-area: title;
+    text-align: start;
+    max-width: 210px;
+  }
+  .header .information {
+    grid-area: information;
+  }
 }

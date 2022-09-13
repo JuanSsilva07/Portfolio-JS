@@ -22,29 +22,29 @@
       referrerpolicy="no-referrer"
     />
     <!-- New Font -->
-    <link rel="stylesheet" href="/assets/fonts/NeueMachina-regular.otf" />
+    <link rel="stylesheet" href="assets/fonts/NeueMachina-regular.otf" />
 
     <!-- Personal CSS -->
-    <link rel="stylesheet" href="/assets/css/header.css" />
-    <link rel="stylesheet" href="/assets/css/global.css" />
-    <link rel="stylesheet" href="/assets/css/acordeon.css" />
-    <link rel="stylesheet" href="/assets/css/languages.css" />
-    <link rel="stylesheet" href="/assets/css/portfolio.css" />
-    <link rel="stylesheet" href="/assets/css/experience.css" />
-    <link rel="stylesheet" href="/assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/acordeon.css" />
+    <link rel="stylesheet" href="assets/css/languages.css" />
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
+    <link rel="stylesheet" href="assets/css/experience.css" />
+    <link rel="stylesheet" href="assets/css/skills.css" />
   </head>
   <body>
     <main class="main">
-
       <header class="header">
         <img
-          class="photo" id="profile.photo"
-          src="./assets/img/my-photo.png"
+          class="photo"
+          id="profile.photo"
+          src=".assets/img/my-photo.png"
           alt="Foto de Perfil"
         />
         <h1 class="title">
           Olá, <br />
-          sou o <span id="profile.name">Loading...</span> 
+          sou o <span id="profile.name">Loading...</span>
         </h1>
         <div class="information">
           <p class="job" id="profile.job">Loading...</p>
@@ -53,7 +53,9 @@
             <a href="tel: (11) 99999-9999" id="profile.phone">Loading...</a>
           </p>
           <p class="email">
-            <a href="mailto: ex@email.com" id="profile.email">loading@email.com</a>
+            <a href="mailto: ex@email.com" id="profile.email"
+              >loading@email.com</a
+            >
           </p>
         </div>
       </header>
@@ -64,19 +66,17 @@
         </button>
         <div class="content">
           <div class="skills">
-
             <section class="tools">
-              <h3>Hard Skills: </h3>
+              <h3>Hard Skills:</h3>
               <ul id="profile.skills.hardSkills"></ul>
             </section>
-  
+
             <section class="personal">
-              <h3>Soft Skills: </h3>
+              <h3>Soft Skills:</h3>
               <ul id="profile.skills.softSkills">
                 <li>Loading...</li>
               </ul>
             </section>
-
           </div>
         </div>
       </section>
@@ -125,15 +125,13 @@
           <h2>Professional Experience</h2>
         </button>
         <div class="content">
-          <ul class="experience" id="profile.professionalExperience">
-          </ul>
+          <ul class="experience" id="profile.professionalExperience"></ul>
         </div>
       </section>
-
     </main>
 
     <script src="assets/js/acordeon.js"></script>
     <script src="assets/js/api.js"></script>
-    <script  src="assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
