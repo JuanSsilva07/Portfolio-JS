@@ -15,7 +15,7 @@
   height: 1.5rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/assets/img/icons/header.svg);
+  background-image: url(../img/icons/header.svg);
 }
 
 .header .photo {
@@ -56,19 +56,19 @@
 }
 
 .information .job::before {
-  background-image: url(/assets/img/icons/user.svg);
+  background-image: url(../img/icons/user.svg);
 }
 
 .information .location::before {
-  background-image: url(/assets/img/icons/location.svg);
+  background-image: url(../img/icons/location.svg);
 }
 
 .information .email::before {
-  background-image: url(/assets/img/icons/email.svg);
+  background-image: url(../img/icons/email.svg);
 }
 
 .information .phone::before {
-  background-image: url(/assets/img/icons/whasapp.svg);
+  background-image: url(../img/icons/whasapp.svg);
 }
 
 @media only screen and (min-width: 768px) {

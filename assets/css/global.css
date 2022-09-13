@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Naue Machina";
-  src: url(/assets/fonts/NeueMachina-regular.otf);
+  src: url(../fonts/NeueMachina-regular.otf);
 }
 
 body {
@@ -32,7 +32,7 @@ a:hover {
 .main::before,
 .main::after {
   content: "";
-  background-image: url(/assets/img/background.svg);
+  background-image: url(../img/background.svg);
   width: 140vw;
   height: 100vh;
   background-repeat: no-repeat;
