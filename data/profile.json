@@ -35,8 +35,8 @@
   "languages": [
     "Português BR",
     "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Espanhol (Iniciante)",
+    "Italiano (Iniciante)"
   ],
   "portfolio": [
     {
@@ -52,19 +52,9 @@
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-    },
-    {
-      "name": "Software Engineering Lead / DIO",
+      "name": "Facilities Administrator",
       "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "description": "Fiz parte da equipe de People & Culture da Squid, uma startup de tecnologia. Participei ativamente da área de Facilities, fui responsável por todo o contato com os fornecedores, desde solicitar orçamento, negociação até o momento de fechar a compra ou assinatura do contrato."
     }
   ]
 }
