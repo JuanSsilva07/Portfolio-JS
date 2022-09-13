@@ -41,12 +41,17 @@
   "portfolio": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "url": "https://github.com/JuanSsilva07/Pokedex",
       "github": true
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "url": "https://github.com/JuanSsilva07/Portfolio-JS",
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na Alura em Parceria com a Oracle para criar um encriptador.",
+      "url": "https://github.com/JuanSsilva07/Sprint-1-Alura",
       "github": true
     }
   ],
